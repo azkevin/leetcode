@@ -1,6 +1,8 @@
 from typing import List
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(n)
     def fizzBuzz(self, n: int) -> List[str]:
         list = []
         for i in range(1, n + 1):
